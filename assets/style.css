@@ -213,7 +213,9 @@ a{
     font-family: "Poppins", sans-serif;
     text-transform: none;
 }
-
+.item img{
+    width: 100%;
+}
 /******************************************* 
             Testimonial Section 
 ********************************************/
@@ -238,7 +240,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;   
-    background: url('./assets/img/testimonial/Rectangle\ 49.png') no-repeat;   
+    background: url('./img/testimonial/Rectangle\ 49.png') no-repeat;   
 }
 .t-item:nth-child(2){
     flex-direction: row-reverse;
@@ -254,7 +256,7 @@ a{
     width: 100%;
 }
 .right .t-item{
-    background: url('./assets/img/testimonial/Rectangle\ 50.png') no-repeat;
+    background: url('./img/testimonial/Rectangle\ 50.png') no-repeat;
     height: 100%;
 }
 .t-item h3{
