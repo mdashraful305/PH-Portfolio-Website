@@ -1,0 +1,140 @@
+ @media only screen and (max-width : 480px) {
+ 	.container{
+ 		width:90%;
+ 	}
+	.hero{
+		height: auto;
+	}
+	.hero_section nav ul li{
+		font-size:20px;
+	}
+	.hero_text h6 {
+	    font-size: 34px;	    
+	    line-height: 50px;
+	}
+	.hero_text p {
+	    width: 100%; 
+	    padding-top: 16px;
+	    font-size: 12px;
+	    font-weight: 300;
+	}
+	.profile-container{
+		align-items: center;
+	}
+	.profile-desc{
+		padding-top:10px;
+		font-size: 16px;
+	}
+	.img-container{
+		width: 250px;
+	}
+	.img-container img{
+		height: auto;
+	}
+
+
+
+	.counter{
+		padding: 0;
+	}
+	.counter-box div{
+		padding: 0 9px;
+	    width: 90px;
+	}
+	.counter-box div h1{
+		font-size: 40px;
+	}
+	.counter-box div p{
+		font-size: 12px;
+	}
+
+	.experties .box{
+		flex-wrap: wrap;
+	}
+
+	.section-title{
+		font-size: 22px;
+    	padding-bottom: 30px;
+	}
+
+	.experties .box div{
+		margin-bottom: 20px;
+	}
+	.experties .box div img{
+		width: 100%;
+	}
+
+
+	.projects{
+		padding: 0;
+	}
+	.projects .box> div{
+		flex: 50%;
+	}
+
+	.blogs .box{
+		flex-wrap: wrap;
+	}
+	.blogs .box> div{
+		flex: 50%;
+	}
+	.blogs .box div img{
+		width: 100%;
+	}
+	.item h3{
+		font-size: 20px;
+	}
+
+	.section-header h1{
+		font-size: 45px;
+	}
+	.section-header p{
+		font-size: 12px;
+		 width: 100%;
+	}
+
+	.testimonial .box{
+		flex-wrap: wrap;
+	}
+	.t-item{
+		background: url('/assets/img/testimonial/Rectangle\ 50.png') no-repeat;
+		flex-flow: wrap;
+	}
+	.box .left{
+		padding-right: 0px;
+	}
+	.t-item .first{
+		width: 100%;
+	}
+	.t-item .second {
+		width: 100%;
+		padding: 10px;
+	}
+	.t-item h3 {
+		font-size: 30px;		
+	}
+	.t-item p {
+		font-size: 14px;		
+	}
+	.t-item:nth-child(2){
+		margin-bottom: 20px;
+	}
+
+
+	.footer p{
+		font-size: 14px;
+	}
+	.footer .box {
+		flex-flow: wrap;
+	}
+	.footer .box .right ul{
+		gap: 20px;
+	}
+	.footer .box .right ul li {
+		font-size: 16px;
+	}
+	::placeholder {		
+		font-size: 15px;
+		
+	  }	  
+}
