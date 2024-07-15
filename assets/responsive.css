@@ -97,7 +97,7 @@
 		flex-wrap: wrap;
 	}
 	.t-item{
-		background: url('/assets/img/testimonial/Rectangle\ 50.png') no-repeat;
+		background: url('./assets/img/testimonial/Rectangle\ 50.png') no-repeat;
 		flex-flow: wrap;
 	}
 	.box .left{
